@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaIfWhile", "Estrutu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaFor", "EstruturaFor\EstruturaFor.csproj", "{A42C1285-635E-4AFF-B543-75D5166F9FB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionarioMediaSalarial", "FuncionarioMediaSalarial\FuncionarioMediaSalarial.csproj", "{4BBC34D5-772F-4E37-970A-2ADDA4E89E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PessoaMaisVelha", "PessoaMaisVelha\PessoaMaisVelha.csproj", "{0634AADE-E63F-4ACA-B8DD-A2709A59D17F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,11 +43,21 @@ Global
 		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBC34D5-772F-4E37-970A-2ADDA4E89E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBC34D5-772F-4E37-970A-2ADDA4E89E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBC34D5-772F-4E37-970A-2ADDA4E89E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBC34D5-772F-4E37-970A-2ADDA4E89E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0634AADE-E63F-4ACA-B8DD-A2709A59D17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0634AADE-E63F-4ACA-B8DD-A2709A59D17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0634AADE-E63F-4ACA-B8DD-A2709A59D17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0634AADE-E63F-4ACA-B8DD-A2709A59D17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88575FED-9355-4708-9BD9-315191589DA8}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
