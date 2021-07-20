@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDadosSimplesSPLIT", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaIfWhile", "EstruturaIfWhile\EstruturaIfWhile.csproj", "{196119CA-4FE8-496F-A696-8F132827E6E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaFor", "EstruturaFor\EstruturaFor.csproj", "{A42C1285-635E-4AFF-B543-75D5166F9FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{196119CA-4FE8-496F-A696-8F132827E6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196119CA-4FE8-496F-A696-8F132827E6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196119CA-4FE8-496F-A696-8F132827E6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42C1285-635E-4AFF-B543-75D5166F9FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
