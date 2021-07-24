@@ -19,7 +19,7 @@ namespace ProdutoEstoque
 
             // Construtor com inicialização de classe
             Produto produtoClass = new Produto(produto, preco, estoque);
-             
+           
             // Sitaxe alternativa para inicar valores (Não precisa de construtor)
             Produto produtoClass3 = new Produto
             {

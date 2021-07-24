@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutoEstoque", "ProdutoEs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDolar", "ConversaoDolar\ConversaoDolar.csproj", "{0607097D-5556-4296-8D0C-A6685B465440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco", "Banco\Banco.csproj", "{3DC933F7-2AA1-49EE-8DFF-9319ACC5E465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0607097D-5556-4296-8D0C-A6685B465440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0607097D-5556-4296-8D0C-A6685B465440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0607097D-5556-4296-8D0C-A6685B465440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC933F7-2AA1-49EE-8DFF-9319ACC5E465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC933F7-2AA1-49EE-8DFF-9319ACC5E465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC933F7-2AA1-49EE-8DFF-9319ACC5E465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC933F7-2AA1-49EE-8DFF-9319ACC5E465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

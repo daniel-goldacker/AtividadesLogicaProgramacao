@@ -3,10 +3,23 @@ namespace ProdutoEstoque
 {
     public class Produto
     {
-        public string Nome;
-        public double Preco;
-        public double Estoque;
-        public string UnidadeMedida;
+        // Atributos como variáveis (Privadas para não ser acessadas fora da classe)
+        private string _nome;
+        public double Preco { get; set; }
+        public double Estoque { get; set; }
+        public string UnidadeMedida { get; private set; }
+
+
+        // Atributos como propriedades (Tornando acessiverl as variáveis acima fora da classe)
+        public string Nome {
+            get { return _nome; }
+            set {
+                if (value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }
+        }
 
         // Construtor padrão
         public Produto()
@@ -24,10 +37,9 @@ namespace ProdutoEstoque
         // construtor com sobrecarga de método
         public Produto(string nome, double Preco)
         {
-            Nome = nome;
+            _nome = nome;
             this.Preco = Preco;
-            /* O this nesse caso quer dizer que estou me referindo ao atributo "Preco" da classe pois nesse exemplo o nome do parâmetro 
-             * do costrutor tem o mesmo nome do atributo da classe */
+            /* O this nesse caso quer dizer que estou me referindo ao atributo "Preco" da classe */
         }
 
         // construtor com sobrecarga de método - usando o this de outro construtor da classe para preencher os campos.
