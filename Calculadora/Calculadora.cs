@@ -15,5 +15,15 @@ namespace Calculadora
 
             return soma;
         }
+
+        public static void Triplica (ref double valor)
+        {
+            valor *= 3;
+        }
+
+        public static void Triplica(double valor, out double resultado)
+        {
+            resultado = valor * 3;
+        }
     }
 }
