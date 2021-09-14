@@ -1,7 +1,7 @@
 ﻿using System;
 namespace UtilizandoHeranca.Entidades
 {
-    public class ContaNegocio : Conta
+    class ContaNegocio : Conta
     {
 
         public double LimiteEmprestimo { get; set; }

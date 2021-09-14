@@ -1,10 +1,9 @@
 ﻿using System;
 namespace UtilizandoHeranca.Entidades
 {
-    public class Conta
+    class Conta : ContaPrincipal
     {
-        private int Numero { get; set; }
-        private string Titular { get; set; }
+ 
         public double Saldo { get; protected set; }
 
         // private - Permite alterar apenas na própria classe;
@@ -14,10 +13,8 @@ namespace UtilizandoHeranca.Entidades
         {
         }
 
-        public Conta(int numero, string titular, double saldo)
+        public Conta(int numero, string titular, double saldo):base(numero, titular)
         {
-            Numero = numero;
-            Titular = titular;
 
             Deposito(Saldo);
         }

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace UtilizandoHeranca.Entidades
 {
-    public sealed class ContaPoupanca : Conta // classe seladas não permite ela ter filhos
+    sealed class ContaPoupanca : Conta // classe seladas não permite ela ter filhos
     {
         public double TaxaJuros { get; set; }
 
