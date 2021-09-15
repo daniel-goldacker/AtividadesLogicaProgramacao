@@ -1,6 +1,7 @@
 ﻿using System;
 namespace UtilizandoHeranca.Entidades
 {
+    // abstract não permite ser intanciada
     abstract class ContaPrincipal
     {
 
