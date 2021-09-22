@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Entidades\" />
+    <None Remove="Entidade\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entidades\" />
+    <Folder Include="Entidade\" />
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@ namespace UtilizandoEnumCoposicao.Entidades
         }
 
 
-        // Lista nào vai no construtor, cria sempre uma método a parte para adicionar e remover (conforme abaixo)
+        // Lista não vai no construtor, cria sempre uma método a parte para adicionar e remover (conforme abaixo)
         public Trabalhador(string nome, NivelTrabalhador nivel, double salarioBase, Departamento departamento)
         {
             Nome = nome;
