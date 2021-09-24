@@ -85,7 +85,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilizandoTryCath", "Utiliz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaQuarto", "ReservaQuarto\ReservaQuarto.csproj", "{327F473C-6E5C-44B2-A9BF-C315D4F510B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancara", "ContaBancara\ContaBancara.csproj", "{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBancara\ContaBancaria.csproj", "{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
