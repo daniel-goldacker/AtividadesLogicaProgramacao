@@ -83,6 +83,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpostoPFePJ", "ImpostoPFeP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilizandoTryCath", "UtilizandoTryCath\UtilizandoTryCath.csproj", "{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaQuarto", "ReservaQuarto\ReservaQuarto.csproj", "{327F473C-6E5C-44B2-A9BF-C315D4F510B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancara", "ContaBancara\ContaBancara.csproj", "{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +253,14 @@ Global
 		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F473C-6E5C-44B2-A9BF-C315D4F510B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F473C-6E5C-44B2-A9BF-C315D4F510B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F473C-6E5C-44B2-A9BF-C315D4F510B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F473C-6E5C-44B2-A9BF-C315D4F510B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215F2E2C-1A0D-4D20-96BE-3CD5419B966B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
