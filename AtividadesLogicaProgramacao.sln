@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figuras", "Figuras\Figuras.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpostoPFePJ", "ImpostoPFePJ\ImpostoPFePJ.csproj", "{7B82B7B5-3CA8-46C2-9992-1F946C8DE09C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilizandoTryCath", "UtilizandoTryCath\UtilizandoTryCath.csproj", "{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{7B82B7B5-3CA8-46C2-9992-1F946C8DE09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B82B7B5-3CA8-46C2-9992-1F946C8DE09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B82B7B5-3CA8-46C2-9992-1F946C8DE09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202A5F27-7D10-4BAB-941B-9B84CBE10BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
