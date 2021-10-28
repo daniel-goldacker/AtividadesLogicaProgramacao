@@ -38,11 +38,38 @@ namespace UtilizandoArquivos
                 fileStream = new FileStream(caminhoArquivoOrigem, FileMode.Open);
                 streamReader = new StreamReader(fileStream);
 
-            
+
                 while (!streamReader.EndOfStream)
                 {
                     Console.WriteLine(streamReader.ReadLine());
                 }
+
+                Console.WriteLine("");
+
+
+                // Usando esta forma não precisa dar closed no FileStream e no StreamReader
+                using (FileStream fileStream2 = new FileStream(caminhoArquivoDestino, FileMode.Open))
+                {
+                    using (StreamReader streamReader2 = new StreamReader(fileStream2))
+                    {
+                        while (!streamReader2.EndOfStream)
+                        {
+                            Console.WriteLine(streamReader2.ReadLine());
+                        }
+                    }
+                }
+
+                Console.WriteLine("");
+
+                // Outra forma de ler arquivo sem usar o FileStream usando o File.OpenText
+                using (StreamReader streamReader3 = File.OpenText(caminhoArquivoDestino))
+                {
+                    while (!streamReader3.EndOfStream)
+                    {
+                        Console.WriteLine(streamReader3.ReadLine());
+                    }
+                }
+
             }
             catch (IOException ex)
             {
