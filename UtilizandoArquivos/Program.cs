@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace UtilizandoArquivos
@@ -9,7 +10,8 @@ namespace UtilizandoArquivos
         {
             string caminhoArquivoOrigem = @"/Users/danielgoldacker/Desktop/AtividadesLogicaProgramacao/UtilizandoArquivos/file1.txt";
             string caminhoArquivoDestino = @"/Users/danielgoldacker/Desktop/AtividadesLogicaProgramacao/UtilizandoArquivos/file2.txt";
-
+            string caminhoPasta = @"/Users/danielgoldacker/Desktop/AtividadesLogicaProgramacao/UtilizandoArquivos/minhaPasta";
+            
             FileStream fileStream = null;
             StreamReader streamReader = null;
 
@@ -17,12 +19,8 @@ namespace UtilizandoArquivos
             {
                 FileInfo fileInfo = new FileInfo(caminhoArquivoOrigem);
 
-                // Se arquivo de destino existir exclui ele
-                if (File.Exists(caminhoArquivoDestino))
-                {
-                    File.Delete(caminhoArquivoDestino);
-                }
-
+                ExcluirArquivo(caminhoArquivoDestino);
+             
                 // Cria file2.rtf
                 fileInfo.CopyTo(caminhoArquivoDestino);
 
@@ -70,6 +68,65 @@ namespace UtilizandoArquivos
                     }
                 }
 
+                Console.WriteLine("");
+
+
+                ExcluirArquivo(caminhoArquivoDestino);
+
+
+                // Escreve em arquivo 
+                string[] lines = File.ReadAllLines(caminhoArquivoOrigem);
+                using (StreamWriter streamWriter = File.AppendText(caminhoArquivoDestino))
+                {
+                    foreach (string item in lines)
+                    {
+                        streamWriter.WriteLine(item.ToUpper());
+                    }
+                }
+
+
+                Console.WriteLine("");
+
+
+                // Listar subpastas de uma pasta
+                IEnumerable<string> pasta = Directory.EnumerateDirectories(caminhoPasta, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("Pasta: ");
+
+                foreach (string item in pasta)
+                {
+                    Console.WriteLine(item);
+                }
+
+                Console.WriteLine("");
+
+                // Listar arquivos de uma pasta e suas subpastas
+                IEnumerable<string> arquivos = Directory.EnumerateFiles(caminhoPasta, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("Arquivos: ");
+
+                foreach (string item in arquivos)
+                {
+                    Console.WriteLine(item);
+                }
+
+
+                Console.WriteLine("");
+
+                // Cria uma pasta
+                ExcluirPasta(caminhoPasta + "/novaPasta");
+                Directory.CreateDirectory(caminhoPasta + "/novaPasta");
+
+                Console.WriteLine("");
+
+
+                // Utilizando GetTempPath
+                Console.WriteLine("GetDirectoryName: {0}", Path.GetDirectoryName(caminhoArquivoDestino));
+                Console.WriteLine("DirectorySeparatorChar: {0}", Path.DirectorySeparatorChar);
+                Console.WriteLine("PathSeparator: {0}", Path.PathSeparator);
+                Console.WriteLine("GetFileName: {0}", Path.GetFileName(caminhoArquivoDestino));
+                Console.WriteLine("GetFileNameWithoutExtension: {0}", Path.GetFileNameWithoutExtension(caminhoArquivoDestino));
+                Console.WriteLine("GetExtension: {0}", Path.GetExtension(caminhoArquivoDestino));
+                Console.WriteLine("GetFullPath: {0}", Path.GetFullPath(caminhoArquivoDestino));
+                Console.WriteLine("GetTempPath: {0}", Path.GetTempPath());
             }
             catch (IOException ex)
             {
@@ -79,6 +136,24 @@ namespace UtilizandoArquivos
             {
                 if (streamReader != null) streamReader.Close();
                 if (fileStream != null) fileStream.Close(); 
+            }
+        }
+
+        static void ExcluirArquivo(String caminhoArquivo)
+        {
+            // Se arquivo de destino existir exclui
+            if (File.Exists(caminhoArquivo))
+            {
+                File.Delete(caminhoArquivo);
+            }
+        }
+
+        static void ExcluirPasta(string caminhoPasta)
+        {
+            // Se pasta existir exclui
+            if (Directory.Exists(caminhoPasta))
+            {
+                Directory.Delete(caminhoPasta, true);
             }
         }
     }
