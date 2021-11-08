@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Modelos\" />
+    <None Remove="Modelos\Entidades\" />
+    <None Remove="Modelos\Enums\" />
+    <None Remove="Modelos\Entidades\HERDAR\" />
+    <None Remove="Modelos\Entidades\HERDAR %28copiar%29\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modelos\" />
+    <Folder Include="Modelos\Entidades\" />
+    <Folder Include="Modelos\Enums\" />
+    <Folder Include="Modelos\Entidades\HERDAR\" />
+    <Folder Include="Modelos\Entidades\INTERFACE\" />
+  </ItemGroup>
+</Project>

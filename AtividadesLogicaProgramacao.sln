@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluguelCarroComInterface", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatizacaoContrato", "AutomatizacaoContrato\AutomatizacaoContrato.csproj", "{049640B7-1AF8-4A13-9444-801C3C8C813E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerdarVsCumprirContrato", "HerdarVsCumprirContrato\HerdarVsCumprirContrato.csproj", "{A7431D1E-276C-4C43-940D-6B8BC8C5FBCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{049640B7-1AF8-4A13-9444-801C3C8C813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{049640B7-1AF8-4A13-9444-801C3C8C813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{049640B7-1AF8-4A13-9444-801C3C8C813E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7431D1E-276C-4C43-940D-6B8BC8C5FBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7431D1E-276C-4C43-940D-6B8BC8C5FBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7431D1E-276C-4C43-940D-6B8BC8C5FBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7431D1E-276C-4C43-940D-6B8BC8C5FBCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
