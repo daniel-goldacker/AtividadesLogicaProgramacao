@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItensVendidosArquivo", "Ite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluguelCarroSemInterface", "AluguelCarroSemInterface\AluguelCarroSemInterface.csproj", "{5690B1A5-F166-4FE2-86EF-48622A5DF2C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluguelCarroComInterface", "AluguelCarroComInterface\AluguelCarroComInterface.csproj", "{8244D4A2-BBEF-460A-9532-B7D8E8A112E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{5690B1A5-F166-4FE2-86EF-48622A5DF2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5690B1A5-F166-4FE2-86EF-48622A5DF2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5690B1A5-F166-4FE2-86EF-48622A5DF2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8244D4A2-BBEF-460A-9532-B7D8E8A112E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8244D4A2-BBEF-460A-9532-B7D8E8A112E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8244D4A2-BBEF-460A-9532-B7D8E8A112E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8244D4A2-BBEF-460A-9532-B7D8E8A112E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
