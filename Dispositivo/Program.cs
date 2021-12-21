@@ -16,8 +16,8 @@ namespace Dispositivo
             Console.WriteLine(s.Scan());
 
             ComboDispositivo cd = new ComboDispositivo() { NumeroSerial = 2250 };
-            cd.ProcessaDoc("Minha disertação");
-            cd.Imprimir("Minha disertação");
+            cd.ProcessaDoc("Minha dissertação");
+            cd.Imprimir("Minha dissertação");
             Console.WriteLine(cd.Scan());
 
         }
